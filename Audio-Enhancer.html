@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audio Enhancer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+  </div>
+    <h1> Mult-Tool web App </h1>
+    <nav>
+      <a href="index.html">&larr; Back to Home</a>
+    </nav>
+  </header>
+  <main>
+<section id="audio-enhancer">
+<h2>Audio Enhancer</h2>
+
+<!-- File upload area -->
+<div>
+  <label for="audio-file">Upload Audio File:</label>
+  <input type="file" id="audio-file" accept="audio/*">
+</div>
+
+<!-- Audio Players -->
+<div id="Audio players" style="display:none">
+<div>
+  <h3>Original Audio</h3>
+  <audio id="original-audio" controls></audio>
+</div>
+
+<div>
+  <h3>Enhanced Audio</h3>
+  <audio id="enhanced-audio" controls></audio>
+</div>
+<div>
+  <label for="volume-slider">Volume:</label>
+  <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+</div>
+</div>
+</section>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
