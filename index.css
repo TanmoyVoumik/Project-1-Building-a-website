@@ -65,3 +65,36 @@ section#audio-enhancer input[for="file"]
   font-size:16px;
   padding:6px 0;
 }
+/*player section container inside the grey card*/
+#player-section
+{
+  margin-top:20px;
+  padding-top:20px;
+  border-top:2px solid #ffffff; /*separates upload area from audio controls*/
+}
+/*headings for orginal Audio and Enhanced Audio*/
+#player-section h3
+{
+  color:#ffffff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+/*audio player elements*/
+#player-section audio
+{
+  width:100%;
+  margin-bottom: 15px;
+}
+/*volume slider style*/
+#player-section label[for="volume-slider"]
+{
+  color:#ffffff;
+  font-size:16px;
+  display:inline-block;
+  margin-bottom:8px;
+}
+#player-section input[type="range"]
+{
+  width:100%; /*makes volume slider full width*/
+  cursor:pointer;
+}
